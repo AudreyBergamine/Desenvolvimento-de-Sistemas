@@ -1,15 +1,15 @@
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Ola Mundo");
-        Veiculo honda = new Veiculo();
+        Veiculo carro = new Veiculo();
         
-        honda.setVelocidade(40);
+        carro.setVelocidade(40);
         
-        honda.acelerar();
+        carro.acelerar();
         
-        honda.parar();
+        carro.parar();
 
-        honda.buzinar();
+        carro.buzinar();
     }
     
 }
